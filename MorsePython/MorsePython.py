@@ -1,4 +1,10 @@
 import MorseTree
 from MorseTree import *
+import string
+from string import *
 
-print (morseTree)
+def letterToMorse( letter ) :
+    return (morseTree[ord( letter ) - ord( "A" )][3])
+
+letter = input()
+print( letterToMorse( letter ) )

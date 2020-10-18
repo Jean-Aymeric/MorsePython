@@ -1,4 +1,3 @@
-import MorseTree
 from MorseTree import *
 
 def letterToRank( letter ) :

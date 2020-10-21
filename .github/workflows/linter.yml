@@ -52,5 +52,6 @@ jobs:
         env:
           VALIDATE_PYTHON_PYLINT: true
           VALIDATE_ALL_CODEBASE: true
+          VALIDATE_MARKDOWN: true
           DEFAULT_BRANCH: master
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
